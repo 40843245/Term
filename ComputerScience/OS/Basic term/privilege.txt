@@ -1,0 +1,30 @@
+In this article, I will discuss the word "privilege".
+
+------------------------------------------
+Introduction to privilege:
+Privilege determines which type of people have the ability to access.
+
+------------------------------------------
+Types:
+In OS, there are 2 major modes.
+(2.1)User mode:
+It is the lowest privilege.
+The system call can NOT be performed in this mode.
+Users are always in users mode.
+
+(2.2)Kernel mode:
+It is the highest privilege.
+Only the OS can switch it to kernel mode.
+The system call can be performed in this mode.
+Thus, the deletion and creation and modified files can be done in this mode.
+
+------------------------------------------
+Extra information:
+Some People may stuck these issues.
+Why can I delete my files using del on my keyboard in Windows 10?
+In fact, when one tries to delete files using del on one's keyboard in Windows 10.
+The OS automatically performs lots of things.
+First, the deletion callback was invoked.
+Then, the OS try to switch it to kernel mode.
+After that, the OS invoke the system call to try to delete files.
+If succeed, the files will be deleted. Otherwise, the error occurs.
