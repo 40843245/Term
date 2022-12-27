@@ -1,0 +1,13 @@
+
+
+------------------------
+Abbreviation:
+DNS = Domain Name Server
+
+------------------------
+Introduction to DNS:
+DNS refers a hierarchical and distributed naming system for computers, services, and other resources in the Internet or other IP networks.
+
+------------------------
+[ref]
+https://en.wikipedia.org/wiki/Domain_Name_System
