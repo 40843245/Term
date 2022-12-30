@@ -1,0 +1,8 @@
+
+------------------------
+Introduction:
+A honeypot refers a lot of bugs in the website or system but is a trap to try to find attackers who attack the website or system.
+
+------------------------
+Application:
+It can be applied in information security (to find attacker).
